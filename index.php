@@ -1,4 +1,4 @@
-<?php
+w<?php
 session_start();
 
 // Haal de eventuele fouten en formulier waarden op uit de sessie
