@@ -50,7 +50,7 @@
         <label for="achternaam">Achternaam:</label>
         <input type="text" id="achternaam" name="achternaam" value="<?= $formValues['achternaam'] ?? '' ?>"  required>
         <?php if (isset($errors['achternaam'])): ?>
-            <span style="color: red;"><?= $errors['achternaam'] ?></span>
+            <span style="color: #211414;"><?= $errors['achternaam'] ?></span>
         <?php endif; ?><br>
 
         <label for="telefoonnummer">Telefoonnummer:</label>
